@@ -3,6 +3,6 @@ curl -o /usr/local/bin/docker-compose -L "https://github.com/docker/compose/rele
 chmod +x /usr/local/bin/docker-compose
 docker-compose -v
 git clone https://github.com/service-bot/servicebot-deploy.git
-nano /servicebot-deploy/docker-compose.yaml
+nano servicebot-deploy/docker-compose.yaml
 docker-compose build
 docker-compose up -d
